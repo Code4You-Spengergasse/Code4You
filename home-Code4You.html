@@ -4,22 +4,23 @@
 	<head>
 		<link rel="stylesheet" type= "text/style" href="./home-Code4You.css">
         
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="./home-Code4You.js"></script>
+        
 	</head>
 
 	<body>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="./home-Code4You.js"></script>
 		<div id="Header">
 			<img src="./resources/Header.png" alt="Code4You" width="385" height="114">
 		</div>
 		
         <ul class="menu">
-            <li><a  href="#">LUA</a></li>
-            <li><a  href="#">Java</a></li>
-            <li><a  href="#">JavaScript</a></li>
-            <li><a  href="#">html</a></li>
-            <li><a  href="#">C</a></li>
-            <li><a  href="#">C++</a></li>
+            <li id = "LUAmenu">LUA</li>
+            <li><a id = "Javamenu" onClick="clicked(this.id)" href="#">Java</a></li>
+            <li id = "JavaScriptmenu"><a  href="#">JavaScript</a></li>
+            <li id = "htmlmenu"><a  href="#">html</a></li>
+            <li id = "Cmenu"><a  href="#">C</a></li>
+            <li id = "C++menu"><a  href="#">C++</a></li>
         </ul>
 
         <div class = "content">
@@ -38,12 +39,13 @@
                 <li><a href="#">Something</a></li>
                 <li><a href="#">Something</a></li>
             </ul>
-            <ul id="siteContent">
-                <h1>Header1</h1>
-                <h1>Header1</h1>
+            <ul class="siteContent">
+                <h1><center>Header1</center></h1>
+                <h1><center>Header1</center></h1>
             </ul>
 
         </div>
+
 		
 	</body>
 

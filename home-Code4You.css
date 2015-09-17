@@ -52,9 +52,10 @@ body{
 
 }
 
-#siteContent{
+.siteContent{
     background-color: lightBlue;
-
+    -webkit-flex: 5 0 0;
+    flex: 5 0 0;
     display: flex;
     display: flex;
     display: -webkit-box;
@@ -67,8 +68,7 @@ body{
     padding:0;
 }
     #sideMenu li{
-        align-items: center; 
-        text-align: center;
+       
         padding: 10px;
         border-top: 1px solid rgba(255, 255, 255, 0.3);
         border-bottom: 1px solid rgba(0,0,0,0.1);
@@ -79,17 +79,14 @@ body{
 
 
 #sideMenu{
+    -webkit-flex: 1 0 0;
+    flex: 1 0 0;
     background-color: tomato;
+    list-style: none;
+    text-decoration: none;
+    align-items: center; 
+    text-align: center;
 }
-
-
-
-
-
-
-
-
-
 
 
 
